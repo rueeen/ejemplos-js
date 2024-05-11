@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        Realizar un programa que muestre su nombre y su edad en una página HTML. Emplear el comando write del objeto
+        document para imprimir. Tener en cuenta que si queremos que cada dato quede en una fila distinta de la página
+        debemos insertar la etiqueta HTML <br> (salto de linea en HTML), es decir debemos
+        disponer: document.write('<br>')
+    </p>
+
+    <script>
+        let nombre = prompt('Ingrese su nombre');
+        let edad = parseInt(prompt('Ingrese su edad'));
+
+        document.write(`<h1>Su nombre es: ${nombre}</h1> <br> <h2>Su edad es ${edad}</h2>`)
+    </script>
+</body>
+
+</html>
